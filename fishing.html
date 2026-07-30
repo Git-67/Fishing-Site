@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hobbies Website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">     <!-- Bootstrap Icons       -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">              <!-- Bootstrap Frameworks  -->
+        <link rel='stylesheet' href='styles.css'>                                                                           <!-- External CSS          -->
+        <script src='script.js' defer></script>                                                                             <!-- External JS           -->
+    </head>
+    <body>
+        <audio id="myAudio" src="resources/mixkit-cool-interface-click-tone-2568.wav" preload="auto"></audio>
+        <video class="bg-video" autoplay muted loop playsinline>
+            <source src="/resources/307818_tiny.mp4" type="video/mp4">
+        </video>
+        <nav class="navbar navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+                
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link active px-3" aria-current="page" href="#">Fishing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="coding.html">Coding</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="minecraft.html">Minecraft</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="sticky-top hero-panel" style="z-index: 1;">
+            <div class="full-bleed banner-wrapper">
+                <img src="resources/SR191-SmoothSailing_banner.jpg" alt="Banner" class="w-100">
+                <h1 class="banner-title text-center">Fishing</h1>
+                <p class="banner-text">The activity of catching aquatic animals with various methods and equipments, mostly utilizing fishing rods and nets</p>
+            </div>
+        </section>
+
+        <section class="d-flex flex-column align-items-center container-about" style="z-index: 3;">
+            <div class="container">
+
+                <h2 class="section-title text-center mb-5 mt-5">About Fishing</h2>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4 hobby-block">
+                        <h4 class="fw-bold mb-3">In the past, fishing was a crucial survival skill</h4>
+                        <p class="fw-light">
+                            Fishing started over 40,000 years ago as a basic survival method mainly using wooden spears, 
+                            basic weighted nets and bone rods. It was also a job for commoners, with fishermans trading
+                            their daily catches for other necessities in marketplaces.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 hobby-block">
+                        <h4 class="fw-bold mb-3">Today, fishing can also be a pleasant hobby</h4>
+                        <p class="fw-light">
+                            Although fishing has been industrialized and main supplies come from fish farms, fishing is still 
+                            a popular hobby amongst many enthusiasts living near water bodies seeking more time with nature, and 
+                            dopamine inducing catches.  
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <button id="scrollDownBtn" class="btn btn-custom scroll-down-btn mb-5 w-auto">Next Section</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="next-section" class="py-5 container-descriptions" style="position: relative; z-index: 2;">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 mt-5 mb-5 g-4 text-center">
+
+                    <div class="col align-items-center justify-content-center"">
+                        <img src="resources/deep-sea-fishing.webp" alt="Fishing" class="rounded-circle mb-5 content-hover-lift" style="width: 250px; height: 250px; object-fit: cover;">
+                        <h5>Deep Sea Fishing</h5>
+                        <p class="fw-light">
+                        Deep sea fishing is a sport and commercial activity that takes place in deep ocean waters far away from any visible shore. 
+                        It targets large, powerful marine species like marlins, tunas, and groupers using specialized, heavy-duty equipment.
+                        </p>
+                    </div>
+
+                    <div class="col align-items-center justify-content-center">
+                        <img src="resources/shore-fishing.webp" alt="Fishing" class="rounded-circle mb-5 content-hover-lift"" style="width: 250px; height: 250px; object-fit: cover;">
+                        <h5>Shore Fishing</h5>
+                        <p class="fw-light">
+                        Shore, or coastline fishing involves casting lines from beaches, jetties, or rocky breakwaters, targeting species like 
+                        barramundi, groupers, and stingrays using surfcasting or bottom-feeder rigs.
+                        </p>
+                    </div>
+
+                    <div class="col align-items-center justify-content-center"">
+                        <img src="resources/freshwater-fishing.jpg" alt="Fishing" class="rounded-circle mb-5 content-hover-lift"" style="width: 250px; height: 250px; object-fit: cover;">
+                        <h5>Freshwater Fishing</h5>
+                        <p class="fw-light">
+                        Freshwater fishing involves catching fish in lakes, rivers, and reservoirs using rods, reels, and specific baits or lures. 
+                        Popular target species include bass, tilapia, and catfish, while essential gear typically consists of natural, and artificial baits
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>  
+
+        <section class="py-5 container-personal" style="position: relative; z-index: 4;">
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <div class="col-md-6">
+                        <h4 class="fw-bold mb-3">Choosing the Right Rod</h4>
+                        <p class="fw-light mb-5">
+                            Rod choice depends heavily on the fishing style. Lighter, 
+                            flexible rods suit freshwater casting while heavier, 
+                            stiffer rods are built to handle the strain of deep sea catches.
+                        </p>
+
+                        <h4 class="fw-bold mb-3">Different Reel Types for Different Fishing Styles</h4>
+                        <p class="fw-light">
+                            Fishing reels generally fall into four main categories, categorized 
+                            by their design and how line is released: Spinning, Baitcasting, Spincast, 
+                            and Fly reels. Choosing the right one depends on your experience level and the target fish.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6 text-center">
+                        <img src="resources/fishing-rods.jpg" alt="Fishing Gear" class="rounded-3 content-hover-lift" style="width: 600px; height: 350px; object-fit: cover;">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 container-personal-2" style="position: relative; z-index: 4;">
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <div class="col-md-6 text-center">
+                        <img src="resources/net-fishing.webp" alt="Fishing Gear" class="rounded-3 content-hover-lift" style="width: 600px; height: 350px; object-fit: cover;">
+                    </div>
+
+                    <div class="col-md-6">
+                        <h4 class="fw-bold mb-3">Angling vs Netting</h4>
+                        <p class="fw-light mb-5">
+                            Angling uses a rod, reel and hook to catch one fish at a time, great as a hobby. 
+                            On the other end, netting utilizes mesh nets to capture numerous fishes at 
+                            once, typically used for commercial selling.
+                        </p>
+
+                        <h4 class="fw-bold mb-3">Netting and the Impacts</h4>
+                        <p class="fw-light">
+                            Netting can catch accidental unwanted species, tear through underwater plants, and ruin 
+                            certain aquatic ecosystems in the process. Be sure to look out for legal rules and 
+                            restrictions in your area before net fishing.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 container-benefits" style="position: relative; z-index: 3;">
+            <div class="container">
+
+                <h2 class="section-title text-center mb-5 fw-bold">Proven Health Benefits from Fishing</h2>
+
+                <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
+
+                    <div class="col display-flex-column align-items-center">
+                        <i class="bi bi-brightness-high mb-2 fs-1"></i>
+                        <h3 class="fw-bold mb-1">~72%</h3>
+                        <p class="fw-light">increase in Vitamin D intake</p>
+                    </div>
+
+                    <div class="col d-flex flex-column align-items-center">
+                        <i class="bi bi-lungs mb-2 fs-1"></i>
+                        <h3 class="fw-bold mb-1">up to 29%</h3>
+                        <p class="fw-light">lower risk of developing chronic lung diseases</p>
+                    </div>
+
+                    <div class="col d-flex flex-column align-items-center">
+                        <i class="bi bi-emoji-sunglasses mb-2 fs-1"></i>
+                        <h3 class="fw-bold mb-1">~15.4%</h3>
+                        <p class="fw-light">lower perceived stress score</p>
+                    </div>
+
+                    <div class="col d-flex flex-column align-items-center">
+                        <i class="bi bi-fire mb-2 fs-1"></i>
+                        <h3 class="fw-bold mb-1">150 to 500</h3>
+                        <p class="fw-light">calories burnt per hour</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="py-5 container-fishing-video" style="position: relative; z-index: 4;">
+            <div class="container">
+                <div class="text-center">
+                    
+                    <h1 class="fw-bold mb-5 mt-2">Beginner's Guide to Fishing</h1>
+
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/asJ_Y6ZUiGQ?si=a3TNoQ2zjHw75wSC" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                        gyroscope; picture-in-picture; web-share" alt="Beginner's Fishing Video" 
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-1 container-end" style="position: relative; z-index: 100;">
+            <div class="container">
+                <div class="text-center">
+                    
+                    <ul class="d-flex flex-row justify-content-center list-unstyled gap-3 mb-0 mt-2">
+                        <li><a class="text-decoration-none link-light bold-on-hover" 
+                        href="https://www.termsfeed.com/live/488f4d1d-3a2f-4811-86fa-00bd6d591c84">Privacy Policy<a></li>
+                        <li><p>|</p></li>
+                        <li><a class="text-decoration-none link-light bold-on-hover" 
+                        href="https://www.termsfeed.com/live/a16371e5-0a06-42fc-8c76-aa843c2b8efe">Terms of Use<a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            document.getElementById('scrollDownBtn').addEventListener('click', () => {
+            document.getElementById('next-section').scrollIntoView({ behavior: 'smooth' });
+            });
+        </script>
+    </body>
+</html>
