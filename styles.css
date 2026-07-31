@@ -11,10 +11,29 @@ html, body {
         display: none;
     }
 }
+
 .navbar {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 8px 32px 8px 32px;
     margin: 0;
+}
+
+.feedback-tab {
+    position: fixed;
+    top: 70%;
+    right: -45px;          /* Half hidden off-screen */
+    transform: translateY(-50%) rotate(-90deg);
+
+    border-radius: 8px 8px 0 0;
+    padding: 8px 24px 24px 24px;
+    z-index: 100;
+
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.feedback-tab:hover {
+    right: -35px;          /* Slides out slightly */
 }
 
 .bg-video {
