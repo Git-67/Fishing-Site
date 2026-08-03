@@ -7,30 +7,73 @@
         <link rel='stylesheet' href='styles.css'>                                                                           <!-- External CSS          -->
         <script src='script.js' defer></script>                                                                             <!-- External JS           -->
     </head>
-    <body>
+    <body style="background-color: rgb(18, 18, 18);">
         <audio id="myAudio" src="resources/mixkit-cool-interface-click-tone-2568.wav" preload="auto"></audio>
-        <video class="bg-video" autoplay muted loop playsinline>
-            <source src="/resources/307818_tiny.mp4" type="video/mp4">
-        </video>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
+
                 <a class="navbar-brand" href="index.html">Home</a>
-                
-                <ul class="navbar-nav flex-row ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link px-3" aria-current="page" href="fishing.html">Fishing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="coding.html">Coding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="minecraft.html">Minecraft</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active px-3" href="#">Feedback</a>
-                    </li>
-                </ul>
+
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="fishing.html">About Fishing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html">Experiences</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="community.html">Community</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Feedback</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
+
+        <section class="py-1">
+            <div class="container mt-5 text-light">
+                <h1>Feedback Page</h1>
+                <p>Got an idea, suggestion, or a general feedback? Share it Here!</p>
+            </div>
+        </section>
+
+        <section class="py-1 fixed-bottom container-end" style="z-index: 100;">
+            <div class="container">
+                <div class="text-center">
+                    
+                    <ul class="d-flex flex-row justify-content-center list-unstyled gap-3 mb-0 mt-2">
+                        <li><a class="text-decoration-none link-light bold-on-hover" target="_blank" 
+                        href="https://www.termsfeed.com/live/488f4d1d-3a2f-4811-86fa-00bd6d591c84">Privacy Policy<a></li>
+                        <li><p>|</p></li>
+                        <li><a class="text-decoration-none link-light bold-on-hover" target="_blank" 
+                        href="https://www.termsfeed.com/live/a16371e5-0a06-42fc-8c76-aa843c2b8efe">Terms of Use<a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+
+        <a href="#" class="btn btn-success feedback-tab">Feedback</a>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

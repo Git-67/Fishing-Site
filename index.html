@@ -10,40 +10,59 @@
     <body>
         <audio id="myAudio" src="resources/mixkit-cool-interface-click-tone-2568.wav" preload="auto"></audio>
         <video class="bg-video" autoplay muted loop playsinline>
-            <source src="/resources/307818_tiny.mp4" type="video/mp4">
+            <source src="/resources/Endless Sunset - Beach Video Loop.mp4" type="video/mp4">
         </video>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
+
                 <a class="navbar-brand" href="index.html">Home</a>
-                
-                <ul class="navbar-nav flex-row ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link px-3" aria-current="page" href="fishing.html">Fishing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="coding.html">Coding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="minecraft.html">Minecraft</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="feedback.html">Feedback</a>
-                    </li>
-                </ul>
+
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="fishing.html">About Fishing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html">Experiences</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="community.html">Community</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.html">Feedback</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
 
         <div class="landing-page-container">
-            <p class="landing-page-title">Welcome to <br>our hobbies website</p>
+            <p class="landing-page-title">Welcome to <br>our Fishing Site</p>
             <p class="landing-page-text">
-                This was made by McBailu and Git-67, to showcase our interests in our hobbies and provide more 
-                insights into the details of each of them. Enjoy the webpage, maybe you may even consider these 
-                as your hobbies after knowing what we do!
+                This was made by Github User: McBailu and Git-67, to showcase our interests to everyone including newbies in fishing
+                and all about it, as well as our experiences and community posts. We hope you enjoy your stay and have a great time exploring our website!
             </p>
             <div class="landing-page-button-container">
-                <a class="btn btn-outline-primary btn-custom" href="fishing.html">Fishing</a>
-                <a class="btn btn-outline-primary btn-custom" href="coding.html">Coding</a>
-                <a class="btn btn-outline-primary btn-custom" href="minecraft.html">Minecraft</a>
+                <a class="btn btn-outline-primary btn-custom" href="fishing.html">About Fishing</a>
+                <a class="btn btn-outline-primary btn-custom" href="experiences.html">Our Experiences</a>
+                <a class="btn btn-outline-primary btn-custom" href="community.html">Community Posts</a>
                 <a class="icon-btn-custom" href="https://github.com/Git-67/Git-67.github.io" target="_blank"><i class="bi bi-github"></i></a>
             </div>
         </div>
@@ -65,6 +84,6 @@
         </section>
 
         <a href="feedback.html" class="btn btn-success feedback-tab">Feedback</a>
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

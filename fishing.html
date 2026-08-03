@@ -9,26 +9,46 @@
     </head>
     <body>
         <audio id="myAudio" src="resources/mixkit-cool-interface-click-tone-2568.wav" preload="auto"></audio>
-        <nav class="navbar navbar-dark bg-dark sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
+
                 <a class="navbar-brand" href="index.html">Home</a>
-                
-                <ul class="navbar-nav flex-row">
-                    <li class="nav-item">
-                        <a class="nav-link active px-3" aria-current="page" href="#">Fishing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="coding.html">Coding</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="minecraft.html">Minecraft</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link px-3" href="feedback.html">Feedback</a>
-                    </li>
-                </ul>
+
+                <!-- Hamburger button -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About Fishing</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html">Experiences</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="community.html">Community</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="feedback.html">Feedback</a>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
-        </nav>  
+        </nav> 
 
         <section class="sticky-top hero-panel" style="z-index: 1;">
             <div class="full-bleed banner-wrapper">
@@ -215,6 +235,8 @@
             </div>
         </section>
 
+        <!--Add Location to fish, types of fish, time period to fish-->
+
         <section class="py-1 container-end" style="position: relative; z-index: 100;">
             <div class="container">
                 <div class="text-center">
@@ -233,11 +255,11 @@
 
         <a href="feedback.html" class="btn btn-success feedback-tab">Feedback</a>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script>
             document.getElementById('scrollDownBtn').addEventListener('click', () => {
             document.getElementById('next-section').scrollIntoView({ behavior: 'smooth' });
             });
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

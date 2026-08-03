@@ -1,4 +1,5 @@
 html, body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -42,7 +43,7 @@ html, body {
     min-width: 110%; min-height: 110%;
     z-index: -100;
     object-fit: cover;
-    filter: brightness(0.5) blur(4px);
+    filter: brightness(0.4) blur(1px);
 }
 
 .landing-page-title {
@@ -100,7 +101,7 @@ html, body {
     background-color: none;
     color: rgb(225, 225, 225);
 
-    width: 6rem;
+    width: 10rem;
 }
 
 .btn-custom:hover {
