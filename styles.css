@@ -21,8 +21,8 @@ html, body {
 
 .feedback-tab {
     position: fixed;
-    top: 70%;
-    right: -45px;          /* Half hidden off-screen */
+    top: 60%;
+    right: -45px;
     transform: translateY(-50%) rotate(-90deg);
 
     border-radius: 8px 8px 0 0;
@@ -34,7 +34,7 @@ html, body {
 }
 
 .feedback-tab:hover {
-    right: -35px;          /* Slides out slightly */
+    right: -35px;
 }
 
 .bg-video {
@@ -145,6 +145,7 @@ html, body {
 .banner-wrapper img {
     display: block;
     width: 100%;
+    height: 48vh;
 }
 
 .banner-title {
@@ -194,7 +195,7 @@ html, body {
 }
 
 .content-background {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb   (26, 26, 26);
 }
 
 .content-background h1 {
@@ -274,7 +275,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
 
-    filter: brightness(0.35) blur(2px);
+    filter: brightness(0.3) blur(3px);
     z-index: -1;
 }
 
@@ -284,7 +285,7 @@ html, body {
 }
 
 .container-fishing-locations {
-    background-color: rgb(7, 17, 26);
+    background-color: rgb(9, 30, 48);
     color: rgb(230, 230, 230);
 }
 
@@ -296,6 +297,29 @@ html, body {
 .badge-boat-required {
     background-color: rgb(146, 22, 22);
     color: white;
+}
+
+.fish-card {
+    cursor: pointer;
+}
+
+.fish-card-img {
+    transition: transform 0.3s ease;
+}
+
+.fish-card-overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.fish-card:hover .fish-card-overlay {
+    opacity: 1;
+}
+
+.fish-card:hover .fish-card-img {
+    transform: scale(1.08);
 }
 
 .container-end {
@@ -310,4 +334,72 @@ html, body {
 
 .bold-on-hover:hover {
     font-weight: normal;
+}
+
+.badge-uncommon {
+    background-color: rgb(81, 85, 197);
+    color: rgb(231, 231, 231);
+}
+
+.badge-rare {
+    background-color: rgb(197, 81, 162);
+    color: rgb(231, 231, 231);
+}
+
+.badge-legendary {
+    background-color: rgb(228, 67, 67);
+    color: rgb(231, 231, 231);
+}
+
+.container-bestiary {
+    position: relative;
+    color: white;
+    z-index: 3;
+}
+
+.container-bestiary::before {
+    content: "";
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+
+    background-image: url('resources/mangrove-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: brightness(0.3) blur(4px);
+    z-index: -1;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel-custom {
+    overflow: hidden;
+    width: 150%;
+
+    .carousel-inside {
+        display: flex;
+        width: max-content;
+        gap: 3vh;
+        animation: scroll 60s linear infinite;
+
+        .carouselc-item {
+        height: 35vh;
+        width: 55vh;
+        }
+    }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }

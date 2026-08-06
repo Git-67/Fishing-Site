@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hobbies Website</title>
+        <title>Fishing Site</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">     <!-- Bootstrap Icons       -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">              <!-- Bootstrap Frameworks  -->
         <link rel='stylesheet' href='styles.css'>                                                                           <!-- External CSS          -->
@@ -9,7 +9,7 @@
     </head>
     <body>
         <audio id="myAudio" src="resources/mixkit-cool-interface-click-tone-2568.wav" preload="auto"></audio>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
 
                 <a class="navbar-brand" href="index.html">Home</a>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="text-center mt-5">
-                    <button id="scrollDownBtn" class="btn btn-custom scroll-down-btn mb-5 w-auto">Next Section</button>
+                    <button id="scrollDownBtn" class="btn btn-custom scroll-down-btn mb-5 w-auto" onclick="scrolldown()">Next Section</button>
                 </div>
 
             </div>
@@ -94,7 +94,7 @@
             <div class="container">
                 <div class="row row-cols-1 row-cols-md-3 mt-5 mb-5 g-4 text-center">
 
-                    <div class="col align-items-center justify-content-center"">
+                    <div class="col align-items-center justify-content-center">
                         <img src="resources/deep-sea-fishing.webp" alt="Fishing" class="rounded-circle mb-5 content-hover-lift" style="width: 250px; height: 250px; object-fit: cover;">
                         <h5>Deep Sea Fishing</h5>
                         <p class="fw-light">
@@ -123,7 +123,135 @@
 
                 </div>
             </div>
-        </section>  
+        </section>
+
+        <section class="fishing-locations py-4 container-fishing-locations" style="position: relative; z-index: 4;">
+            <div class="container text-center justify-content-center align-items-stretch">
+                <h2 class="text-center mb-2">Common Fishing Spots in Singapore</h2>
+
+                <div class="row g-4 mt-2">
+
+                    <!-- Bedok Jetty -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm content-hover-lift">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Bedok Jetty</h5>
+                                <img src="resources/bedok-jetty.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Bedok Jetty">
+                                <p class="card-text fw-light">A long, well-maintained jetty popular with anglers of all levels. Common catches: barramundi, crayfish, and the occasional octopus.</p>
+                                <div class="position-absolute bottom-0 end-0 m-2">
+                                    <a href="https://maps.app.goo.gl/44VUdyJxJxafNuEA7" target="_blank"><i class="bi bi-map text-secondary"></i></a>
+                                </div>
+                                <div class="mt-auto d-flex gap-2 border-top pt-2">
+                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
+                                    <span class="badge rounded-pill bg-success">Scenic</span>
+                                    <span class="badge rounded-pill bg-secondary">Beginner Friendly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Punggol Point Park -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm content-hover-lift">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Punggol Point Park</h5>
+                                <img src="resources/Punggol-Point-Park-Singapore.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Punggol Point Park">
+                                <p class="card-text fw-light">A relaxed, scenic coastal spot popular with local anglers and families looking for an easy weekend session.</p>
+                                <div class="position-absolute bottom-0 end-0 m-2">
+                                    <a href="https://maps.app.goo.gl/fn9DmDH74XN64fUh9" target="_blank"><i class="bi bi-map text-secondary"></i></a>
+                                </div>
+                                <div class="mt-auto d-flex gap-2 border-top pt-2">
+                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
+                                    <span class="badge rounded-pill bg-success">Scenic</span>
+                                    <span class="badge rounded-pill bg-secondary">Beginner Friendly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Changi Beach -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm content-hover-lift">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Changi Beach</h5>
+                                <img src="resources/changi-beach-park.webp" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Changi Beach">
+                                <p class="card-text fw-light">One of the most calm, and relaxed waters in Singapore. Great for beginners and night fishing. Catches include fingermark bream and catfish.</p>
+                                <div class="position-absolute bottom-0 end-0 m-2">
+                                    <a href="https://maps.app.goo.gl/n5sw7WpwQYaTAs1v7" target="_blank"><i class="bi bi-map text-secondary"></i></a>
+                                </div>
+                                <div class="mt-auto d-flex gap-2 border-top pt-2">
+                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
+                                    <span class="badge rounded-pill bg-success">Scenic</span>
+                                    <span class="badge rounded-pill bg-secondary">Beginner Friendly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Marina East Drive -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm content-hover-lift hidden">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Marina East Drive</h5>
+                                <img src="resources/marina-east-drive.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Marina East Drive">
+                                <p class="card-text fw-light">A quiet rock-fishing spot near Marina Barrage with a skyline backdrop. Good for bream, grouper, and barramundi during tide changes.</p>
+                                <div class="position-absolute bottom-0 end-0 m-2">
+                                    <a href="https://maps.app.goo.gl/fuvUbzQgd6kWeQHHA" target="_blank"><i class="bi bi-map text-secondary"></i></a>
+                                </div>
+                                <div class="mt-auto d-flex gap-2 border-top pt-2">
+                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
+                                    <span class="badge rounded-pill badge-urban">Urban</span>
+                                    <span class="badge rounded-pill bg-danger">Rocky Terrain</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lower Seletar Reservoir -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm content-hover-lift hidden">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Lower Seletar Reservoir</h5>
+                                <img src="resources/lower-seletar-reservoir.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Lower Seletar Reservoir">
+                                <p class="card-text fw-light">A scenic freshwater reservoir known for peacock bass. Catch and release only due to local PUB rules.</p>
+                                <div class="position-absolute bottom-0 end-0 m-2">
+                                    <a href="https://maps.app.goo.gl/C2XjstmBALx9paoE9" target="_blank"><i class="bi bi-map text-secondary"></i></a>
+                                </div>
+                                <div class="mt-auto d-flex gap-2 border-top pt-2">
+                                    <span class="badge rounded-pill bg-info">Freshwater</span>
+                                    <span class="badge rounded-pill bg-success">Scenic</span>
+                                    <span class="badge rounded-pill bg-danger">Heavy Regulations</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Southern Islands -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm content-hover-lift hidden">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Southern Islands</h5>
+                                <img src="resources/southern-island.avif" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Southern Islands">
+                                <p class="card-text fw-light">The pinnacle of Singapore fishing with clear waters and reefs. Catches include giant trevally, grouper, snapper, and coral trout. Boat access needed.</p>
+                                <div class="position-absolute bottom-0 end-0 m-2">
+                                    <a href="https://maps.app.goo.gl/qGzchJv66mTS5fRA9" target="_blank"><i class="bi bi-map text-secondary"></i></a>
+                                </div>
+                                <div class="mt-auto d-flex gap-2 border-top pt-2">
+                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
+                                    <span class="badge rounded-pill bg-success">Scenic</span>
+                                    <span class="badge rounded-pill bg-danger">Heavy Regulations</span>
+                                    <span class="badge rounded-pill badge-boat-required">Boat Required</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button id="show-hidden-btn" class="btn btn-custom">show more</button>
+
+            </div>
+        </section>
 
         <section class="py-5 container-personal" style="position: relative; z-index: 4;">
             <div class="container">
@@ -184,8 +312,6 @@
         <section class="py-5 container-benefits" style="position: relative; z-index: 3;">
             <div class="container">
 
-                <h2 class="section-title text-center mb-5">Proven Health Benefits from Fishing</h2>
-
                 <div class="row row-cols-1 row-cols-md-4 g-4 text-center">
 
                     <div class="col display-flex-column align-items-center">
@@ -217,117 +343,9 @@
             </div>
         </section>
 
-        <section class="fishing-locations py-5 container-fishing-locations" style="position: relative; z-index: 4;">
-            <div class="container">
-                <h2 class="text-center mb-2">Fishing Spots in Singapore</h2>
-                <p class="text-center fw-light mb-4">Some of my favourite places to cast a line</p>
-
-                <div class="row g-4 mt-2">
-
-                    <!-- Bedok Jetty -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Bedok Jetty</h5>
-                                <img src="resources/bedok-jetty.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Bedok Jetty">
-                                <p class="card-text">A long, well-maintained jetty popular with anglers of all levels. Common catches: barramundi, crayfish, and the occasional octopus.</p>
-                                <div class="mt-auto d-flex gap-2 border-top pt-2">
-                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
-                                    <span class="badge rounded-pill bg-success">Scenic</span>
-                                    <span class="badge rounded-pill bg-secondary">Beginner Friendly</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Punggol Point Park -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Punggol Point Park</h5>
-                                <img src="resources/Punggol-Point-Park-Singapore.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Punggol Point Park">
-                                <p class="card-text">A relaxed, scenic coastal spot popular with local anglers and families looking for an easy weekend session.</p>
-                                <div class="mt-auto d-flex gap-2 border-top pt-2">
-                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
-                                    <span class="badge rounded-pill badge-urban">Urban</span>
-                                    <span class="badge rounded-pill bg-secondary">Beginner Friendly</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Changi Beach -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Changi Beach</h5>
-                                <img src="resources/changi-beach-park.webp" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Changi Beach">
-                                <p class="card-text">Calm, relaxed waters great for beginners and night fishing. Catches include fingermark bream and catfish.</p>
-                                <div class="mt-auto d-flex gap-2 border-top pt-2">
-                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
-                                    <span class="badge rounded-pill bg-success">Scenic</span>
-                                    <span class="badge rounded-pill bg-secondary">Beginner Friendly</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Marina East Drive -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Marina East Drive</h5>
-                                <img src="resources/marina-east-drive.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Marina East Drive">
-                                <p class="card-text">A quiet rock-fishing spot near Marina Barrage with a skyline backdrop. Good for bream, grouper, and barramundi during tide changes.</p>
-                                <div class="mt-auto d-flex gap-2 border-top pt-2">
-                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
-                                    <span class="badge rounded-pill badge-urban">Urban</span>
-                                    <span class="badge rounded-pill bg-danger">Rocky Terrain</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Lower Seletar Reservoir -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Lower Seletar Reservoir</h5>
-                                <img src="resources/lower-seletar-reservoir.jpg" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Lower Seletar Reservoir">
-                                <p class="card-text">A scenic freshwater reservoir known for peacock bass. Catch and release only — check PUB rules before you go.</p>
-                                <div class="mt-auto d-flex gap-2 border-top pt-2">
-                                    <span class="badge rounded-pill bg-info">Freshwater</span>
-                                    <span class="badge rounded-pill bg-success">Scenic</span>
-                                    <span class="badge rounded-pill bg-danger">Heavy Regulations</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Southern Islands -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Southern Islands</h5>
-                                <img src="resources/southern-island.avif" class="card-img mt-2 mb-2 object-fit-cover" style="height: 20vh;" alt="Southern Islands">
-                                <p class="card-text">The pinnacle of Singapore fishing — clear waters and reefs producing giant trevally, grouper, snapper, and coral trout. Boat access needed.</p>
-                                <div class="mt-auto d-flex gap-2 border-top pt-2">
-                                    <span class="badge rounded-pill bg-primary">Saltwater</span>
-                                    <span class="badge rounded-pill bg-success">Scenic</span>
-                                    <span class="badge rounded-pill bg-danger">Heavy Regulations</span>
-                                    <span class="badge rounded-pill badge-boat-required">Boat Required</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
         <section class="fishing-videos py-5 container-fishing-video" style="position: relative; z-index: 5;">
             <div class="container">
-                <h2 class="text-center mb-5">Fishing Videos</h2>
+                <h2 class="text-center mb-5">Recommended Fishing Videos</h2>
                 <div class="row g-4">
                     <div class="col-md-6">
                         <div class="ratio ratio-16x9">
@@ -353,6 +371,359 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="next-section" class="py-5 container-bestiary" style="position: relative; z-index: 2;">
+            <div class="container">
+                <h1 class="text-center fw-normal">Local Bestiary</h2>
+                <h2 class="text-center fw-light fs-6">Fishes Spotted in Singapore</h2>
+                <div class="row row-cols-1 row-cols-md-5 mt-3 mb-2 g-4 text-center">
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/Golden-Snapper.jpg" alt="Golden Snapper"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Golden Snapper</h5>
+                                    <p class="small mb-0">A prized catch with vibrant golden hue and delicious flesh. A favorite among local anglers.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge bg-success">Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Golden Snapper</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/barramundi.jpg" alt="Barramundi"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Barramundi</h5>
+                                    <p class="small mb-0">A feisty catch with lots of jerkings, but tastes absolutely delicious. Local anglers seek for this.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge bg-success">Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Barramundi</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/grouper.webp" alt="Grouper"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Grouper</h5>
+                                    <p class="small mb-0">A powerful bottom-dweller, excellent table fish, and notorious for diving into rocks immediately after being hooked.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge badge-uncommon">Uncommon</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Grouper</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/queenfish.jpg" alt="Queenfish"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Queenfish</h5>
+                                    <p class="small mb-0">Lightning-fast predator famous for blistering runs, spectacular jumps, and really aggressive lure strikes.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge badge-uncommon">Uncommon</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Queenfish</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/peacock-bass.jpg" alt="Peacock Bass"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Peacock Bass</h5>
+                                    <p class="small mb-0">Aggressive strikes, hard fights for their size, and one of Singapore's most popular freshwater sport fish.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge bg-success">Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Peacock Bass</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/tilapia.avif" alt="Tilapia"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Tilapia</h5>
+                                    <p class="small mb-0">One of the most widespread freshwater fish in Singapore, easy to catch, cautious feeders, and popular with beginners.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge bg-secondary">Very Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Tilapia</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/snakehead-fish.jpg" alt="Snakehead Fish"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Snakehead Fish</h5>
+                                    <p class="small mb-0">Explosive topwater strikes, fierce predator, and one of Singapore's premier freshwater sport fish.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge bg-success">Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Snakehead Fish</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/trevally.jpg" alt="Trevally"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Trevally</h5>
+                                    <p class="small mb-0">Incredible power, blistering runs, and one of the most respected sport fish among Singapore anglers.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge bg-success">Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Trevally</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/catfish.jpg" alt="Catfis"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Catfish</h5>
+                                    <p class="small mb-0">Hardy bottom-feeder, easy to catch, and famous for its sharp, venomous spines.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge bg-secondary">Very Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Catfish</h5>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/tuskfish.jpg" alt="Tuskfish"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Tuskfish</h5>
+                                    <p class="small mb-0">Beautiful colours, crushing shellfish with powerful teeth, and an occasional surprise catch around reefs.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge badge-rare">Rare</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Tuskfish</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/indian-threadfin.jpg" alt="Indian Threadfin"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Indian Threadfin</h5>
+                                    <p class="small mb-0">Premium eating fish, distinctive thread-like pectoral fins, and a prized catch for shore anglers.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge badge-uncommon">Uncommon</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Indian Threadfin</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/sicklefish.jpg" alt="Sicklefish"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Sicklefish</h5>
+                                    <p class="small mb-0">Beautiful diamond-shaped body, long sickle-like fins, and a highly prized, uncommon catch in Singapore.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge badge-rare">Rare</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Sicklefish</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/halfbeak.jpg" alt="Halfbeak"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Halfbeak</h5>
+                                    <p class="small mb-0">Surface-dwelling fish with a distinctive elongated lower jaw, commonly used as live bait for larger predators.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-warning text-dark">Saltwater</span>
+                                    <span class="badge bg-success">Common</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Halfbeak</h5>
+                    </div>
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/pacu.jpg" alt="Pacu"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Pacu</h5>
+                                    <p class="small mb-0">Huge, powerful freshwater fish with human-like teeth, usually caught after being released from the aquarium trade.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge badge-rare">Rare</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Pacu</h5>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="fish-card position-relative rounded-2 overflow-hidden content-hover-lift">
+                            <img src="resources/asian-arowana.jpg" alt="Asian Arowana"
+                                class="fish-card-img w-100" style="height: 250px; object-fit: cover;">
+
+                            <div class="fish-card-overlay position-absolute top-0 start-0 w-100 h-100 
+                                        d-flex flex-column justify-content-between p-3 text-light rounded-2">
+                                <div>
+                                    <h5 class="fw-light mb-3">Asian Arowana</h5>
+                                    <p class="small mb-0">Legendary "dragon fish", one of the world's most valuable aquarium fish, and a protected species.</p>
+                                </div>
+                                <div class="d-flex flex-wrap gap-1">
+                                    <span class="badge bg-info text-dark">Freshwater</span>
+                                    <span class="badge badge-legendary">Legendary</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fw-light text-center mt-2">Asian Arowana</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-1 container-end" style="position: relative; z-index: 3;">
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>Time of Day</th>
+                            <th>Time Slot</th>
+                            <th>Rating for Fishing</th>
+                            <th>Additional Notes</th>
+                        </tr>
+                    </thead>
+                    <tb>
+                        <tr class="table-dark fw-light text-center">
+                            <td>Morning</td>
+                            <td>06:00 to 10:00</td>
+                            <td><span class="badge bg-success">Excellent</span></td>
+                            <td>Fishes are very active now, feeding after the cool night.</td>
+                        </tr>
+                        <tr class="table-dark fw-light text-center">
+                            <td>Noon</td>
+                            <td>10:00 to 16:00</td>
+                            <td><span class="badge bg-danger">Poor</span></td>
+                            <td>Bright and hot sun pushes fishes to swim to deeper, more shaded waters.</td>
+                        </tr>
+                        <tr class="table-dark fw-light text-center">
+                            <td>Evening</td>
+                            <td>16:00 to 22:00</td>
+                            <td><span class="badge bg-success">Excellent</span></td>
+                            <td>Second major feeding window as temperatures start to drop.</td>
+                        </tr>
+                        <tr class="table-dark fw-light text-center">
+                            <td>Night</td>
+                            <td>22:00 to 06:00</td>
+                            <td><span class="badge bg-warning text-dark">Decent</span></td>
+                            <td>Best for catfishes and other nocturnal feeders.</td>
+                        </tr>
+                    </tb>
+                </table>
             </div>
         </section>
 
