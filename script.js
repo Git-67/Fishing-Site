@@ -18,9 +18,9 @@ function buttonaudio() {
     });
 }
 
-function scrolldown() {
-    document.getElementById('scrollDownBtn').addEventListener('click', () => {
-        document.getElementById('next-section').scrollIntoView({ behavior: 'smooth' });
+function scrolldown(button, next) {
+    document.getElementById(button).addEventListener('click', () => {
+        document.getElementById(next).scrollIntoView({ behavior: 'smooth' });
     });
 }
 
@@ -44,7 +44,10 @@ function carousel() {
 buttonaudio()
 
 if (document.getElementById("scrollDownBtn")) {
-    scrolldown()
+    scrolldown('scrollDownBtn', 'next-section')
+}
+if (document.getElementById("scrollDownBtn2")) {
+    scrolldown('scrollDownBtn2', 'next-section2')
 }
 if (document.getElementById("show-hidden-btn")) {
     showhidden()

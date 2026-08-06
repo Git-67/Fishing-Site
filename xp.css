@@ -3,8 +3,12 @@ body {
     color: white;
 }
 
-.section-title{
-    font-size: 8.9vw;
+.main-title {
+    font-size: 11vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.about-title {
+    font-size: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
