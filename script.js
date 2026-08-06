@@ -55,3 +55,23 @@ if (document.getElementById("show-hidden-btn")) {
 if (document.getElementById("carousel")) {
     carousel()
 }
+
+document.getElementById('reset-btn').addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const Confirm = confirm("Reset the form? All data will be lost.");
+    if (!Confirm) {return};
+    document.querySelector('form').reset();
+});
+
+document.getElementById('submit-btn').addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const form = document.querySelector('form');
+    if (!form.reportValidity()) return;
+
+    const Confirm = confirm("Submit the form? You will not be able to edit it after submission.");
+    if (!Confirm) return;
+
+    form.requestSubmit();
+});

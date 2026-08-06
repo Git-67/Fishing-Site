@@ -110,6 +110,20 @@ html, body {
     color: rgb(18, 17, 17);
 }
 
+.btn-custom-secondary {
+    border-radius: 100px;
+    border-width: 1.5px;
+    background-color: rgb(236, 35, 35);
+    color: rgb(243, 242, 242);
+
+    width: 10rem;
+}
+
+.btn-custom-secondary:hover {
+    background-color: rgb(167, 29, 22);
+    color: rgb(180, 176, 176);
+}
+
 .btn-custom:active {
     color: #aeaeae;
     transform: scale(0.95);
@@ -238,12 +252,12 @@ html, body {
     width: 100%;
     height: 100%;
 
-    background-image: url('resources/fishing-background.webp');
+    background-image: url('resources/ocean-background-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    filter: brightness(0.35) blur(2px);
+    filter: brightness(0.4) blur(2px);
     z-index: -1;
 }
 
@@ -270,12 +284,12 @@ html, body {
     width: 110%;
     height: 110%;
 
-    background-image: url('resources/fishing-benefits-background.jpg');
+    background-image: url('resources/ocean-background.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    filter: brightness(0.3) blur(3px);
+    filter: brightness(0.4);
     z-index: -1;
 }
 
@@ -351,6 +365,16 @@ html, body {
     color: rgb(231, 231, 231);
 }
 
+.badge-baits {
+    background-color: rgb(110, 56, 24);
+    color: white;
+}
+
+.badge-lures {
+    background-color: rgb(27, 24, 110);
+    color: white;
+}
+
 .container-bestiary {
     position: relative;
     color: white;
@@ -396,10 +420,10 @@ html, body {
 }
 
 @keyframes scroll {
-  from {
+    from {
     transform: translateX(0);
-  }
-  to {
+    }
+    to {
     transform: translateX(-50%);
-  }
+    }
 }
