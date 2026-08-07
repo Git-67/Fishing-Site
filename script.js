@@ -36,6 +36,18 @@ function showhidden() {
     });
 }
 
+function showhiddenbestiarycard() {
+    const buttonBestiary = document.getElementById("show-hidden-bestiary");
+
+    buttonBestiary.addEventListener("click", () => {
+        document.querySelectorAll(".hidden-bestiary").forEach(div => {
+            div.classList.remove("hidden-bestiary");
+        });
+
+        buttonBestiary.style.display = "none";
+    });
+}
+
 function carousel() {
     const items = document.querySelector(".carousel-inside")
     items.innerHTML += items.innerHTML
@@ -54,6 +66,9 @@ if (document.getElementById("show-hidden-btn")) {
 }
 if (document.getElementById("carousel")) {
     carousel()
+}
+if (document.getElementById("show-hidden-bestiary")) {
+    showhiddenbestiarycard()
 }
 
 document.getElementById('reset-btn').addEventListener('click', function (e) {

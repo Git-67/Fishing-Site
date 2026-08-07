@@ -398,7 +398,7 @@ html, body {
     z-index: -1;
 }
 
-.hidden {
+.hidden, .hidden-bestiary {
     display: none;
 }
 
