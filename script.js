@@ -53,6 +53,28 @@ function carousel() {
     items.innerHTML += items.innerHTML
 }
 
+function form() {
+    document.getElementById('reset-btn').addEventListener('click', e => {
+        e.preventDefault();
+
+        const Confirm = confirm("Reset the form? All data will be lost.");
+        if (!Confirm) {return};
+        document.querySelector('form').reset();
+    });
+
+    document.getElementById('submit-btn').addEventListener('click', e => {
+        e.preventDefault();
+
+        const form = document.querySelector('form');
+        if (!form.reportValidity()) return;
+
+        const Confirm = confirm("Submit the form? You will not be able to edit it after submission.");
+        if (!Confirm) return;
+
+        form.requestSubmit();
+    });
+}
+
 buttonaudio()
 
 if (document.getElementById("scrollDownBtn")) {
@@ -70,23 +92,7 @@ if (document.getElementById("carousel")) {
 if (document.getElementById("show-hidden-bestiary")) {
     showhiddenbestiarycard()
 }
+if (document.getElementById('reset-btn') && document.getElementById('submit-btn')) {
+    form()
+}
 
-document.getElementById('reset-btn').addEventListener('click', function (e) {
-    e.preventDefault();
-
-    const Confirm = confirm("Reset the form? All data will be lost.");
-    if (!Confirm) {return};
-    document.querySelector('form').reset();
-});
-
-document.getElementById('submit-btn').addEventListener('click', function (e) {
-    e.preventDefault();
-
-    const form = document.querySelector('form');
-    if (!form.reportValidity()) return;
-
-    const Confirm = confirm("Submit the form? You will not be able to edit it after submission.");
-    if (!Confirm) return;
-
-    form.requestSubmit();
-});
