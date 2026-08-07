@@ -56,11 +56,11 @@
             <div class="container mt-5 py-5 text-light">
                 <h1>Feedback Page</h1>
                 <p class="fw-light">Got a compliment, suggestion, or faced any issues? Share it Here!</p>
-                <form>
+                <form action="https://formspree.io/f/mrpzbjzv" method="POST">
                     <div class="row g-5">
 
                         <div class="col-12 col-md-4 text-center fw-light">
-                            <input type="radio" class="card-radio-input" name="feedback-type" id="Compliments" value="Compliments" required>
+                            <input type="radio" class="card-radio-input" name="type" id="Compliments" value="Compliments" required>
                             <label class="card-radio-label p-5 fs-1 content-hover-lift"for="Compliments">
                             <i class="bi bi-hand-thumbs-up"></i><br>
                             <span class="card-radio-title fs-2">Compliments</span>
@@ -68,7 +68,7 @@
                         </div>
 
                         <div class="col-12 col-md-4 text-center fw-light">
-                            <input type="radio" class="card-radio-input" name="feedback-type" id="Suggestions" value="Suggestions" required>
+                            <input type="radio" class="card-radio-input" name="type" id="Suggestions" value="Suggestions" required>
                             <label class="card-radio-label p-5 fs-1 content-hover-lift" for="Suggestions">
                             <i class="bi bi-lightbulb"></i><br>
                             <span class="card-radio-title fs-2">Suggestions</span>
@@ -76,7 +76,7 @@
                         </div>
 
                         <div class="col-12 col-md-4 text-center fw-light">
-                            <input type="radio" class="card-radio-input" name="feedback-type" id="Issues" value="Issues" required>
+                            <input type="radio" class="card-radio-input" name="type" id="Issues" value="Issues" required>
                             <label class="card-radio-label p-5 fs-1 content-hover-lift" for="Issues">
                             <i class="bi bi-bug"></i><br>
                             <span class="card-radio-title fs-2">Issues</span>
@@ -85,7 +85,7 @@
 
                         <div class="form-floating mt-4">
                             <textarea class="form-control styled-input" placeholder="Tell us more" id="feedback-message" 
-                            style="min-height: 25vh; max-height: 55vh;" required></textarea>
+                            style="min-height: 25vh; max-height: 55vh;" name="descriptions" required></textarea>
                             <label for="feedback-message" style="color:rgb(31, 30, 30);" class="mx-4">Tell us more</label>
                         </div>
 
@@ -97,17 +97,17 @@
 
                             <div class="col-9 col-md-3 d-flex align-items-center">
                                 <i class="bi bi-person fs-2 m-4"></i>
-                                <input type="fname" class="form-control styled-input py-3" id="feedback-name" placeholder="Your First Name" required>
+                                <input type="fname" class="form-control styled-input py-3" id="feedback-name" name="name" placeholder="Your First Name" required>
                             </div>
 
                             <div class="col-9 col-md-3 d-flex align-items-center">
                                 <i class="bi bi-envelope fs-2 m-4"></i>
-                                <input type="email" class="form-control styled-input py-3" id="feedback-email" placeholder="Your Email" required>
+                                <input type="email" class="form-control styled-input py-3" id="feedback-email" name="email" placeholder="Your Email" required>
                             </div>
 
                             <div class="col-9 col-md-3 d-flex align-items-center">
                                 <i class="bi bi-telephone fs-2 m-4"></i>
-                                <input type="tel" class="form-control styled-input py-3" id="feedback-phone" placeholder="Your Phone Number" required>
+                                <input type="tel" class="form-control styled-input py-3" id="feedback-phone" name="phone" placeholder="Your Phone Number" required>
                             </div>
 
                         </div>
