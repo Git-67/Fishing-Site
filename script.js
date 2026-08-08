@@ -83,6 +83,9 @@ if (document.getElementById("scrollDownBtn")) {
 if (document.getElementById("scrollDownBtn2")) {
     scrolldown('scrollDownBtn2', 'next-section2')
 }
+if (document.getElementById("scrollDownBtn3")) {
+    scrolldown('scrollDownBtn3', 'next-section3')
+}
 if (document.getElementById("show-hidden-btn")) {
     showhidden()
 }
@@ -95,4 +98,3 @@ if (document.getElementById("show-hidden-bestiary")) {
 if (document.getElementById('reset-btn') && document.getElementById('submit-btn')) {
     form()
 }
-

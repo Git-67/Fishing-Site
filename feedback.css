@@ -13,7 +13,8 @@
 }
 
 .card-radio-input:checked + .card-radio-label {
-    background: #cacbcb;
+    border-color: var(--accent-color, rgb(142, 209, 247));
+    background: var(--accent-color, rgb(142, 209, 247));
     color: rgb(15, 15, 15);
     font-weight: bold;
 }
