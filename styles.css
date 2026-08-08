@@ -1,5 +1,8 @@
-html, body {
+body {
     overflow-x: hidden;
+}
+
+html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -43,7 +46,7 @@ html, body {
     min-width: 110%; min-height: 110%;
     z-index: -100;
     object-fit: cover;
-    filter: brightness(0.4) blur(1px);
+    filter: brightness(0.5);
 }
 
 .landing-page-title {
