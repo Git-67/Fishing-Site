@@ -54,6 +54,41 @@
         </nav>
         <br><br><br>
 
+        <!-- Floating post button -->
+        <button type="button" class="btn btn-primary fab-post" data-bs-toggle="modal" data-bs-target="#postModal" aria-label="Add post">
+            <i class="bi bi-plus-lg"></i>
+        </button>
+
+        <!-- Post modal -->
+        <div class="modal fade" id="postModal" tabindex="-1" aria-labelledby="postModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="postModalLabel">New Post</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="postName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="postName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="postName" class="form-label">Title</label>
+                            <input type="text" class="form-control" id="postName">
+                        </div>
+                        <div class="mb-3">
+                            <label for="postMessage" class="form-label">Message</label>
+                            <textarea class="form-control" id="postMessage" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary">Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section class="cardholder" id="cardholder">
 
         </section>
