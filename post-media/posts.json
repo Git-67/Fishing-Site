@@ -1,482 +1,452 @@
 [
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "CastAway_Sg",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-1.png",
+        "title": "Found a hidden gem spot",
+        "text": "Struggled with tangled lines for most of the session at the reservoir, but managed to salvage the day with a surprise eel right before packing up.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "18:30 09/08/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "SnapperSage",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-2.png",
+        "title": "Any tips for this weekend's trip?",
+        "text": "Quick session at the lake today. Only managed a small stingray but it was enough to make the trip worth it. Sometimes it's not about the size, just about being out there.",
+        "img": "./post-images/post-image-2.avif",
+        "alt-text": "",
+        "timestamp": "16:30 07/08/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "QuietWatersQ",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-3.png",
+        "title": "Rookie question about tackle setup",
+        "text": "First time fishing at the reservoir and I'm impressed. Landed a toman on my third cast. Will definitely be coming back here again soon.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "07:30 06/08/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "FreshwaterFay",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-4.png",
+        "title": "Trying a new spot this week",
+        "text": "Tested out a new lure colour at the estuary and the trevally seemed to love it. Might have found my new go-to setup for this season.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "03:30 04/08/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "TroutTracy",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-5.png",
+        "title": "Peaceful evening, no bites but happy",
+        "text": "Long day at the estuary with barely any bites until late afternoon when a stingray finally took the bait. Patience really is everything in this hobby.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "00:30 02/08/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "MorningBiteMo",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-6.png",
+        "title": "Trying a new spot this week",
+        "text": "First time fishing at a small pond nearby and I'm impressed. Landed a barramundi on my third cast. Will definitely be coming back here again soon.",
+        "img": "./post-images/post-image-3.jpg",
+        "alt-text": "",
+        "timestamp": "11:30 01/08/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "BigCatchBex",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-7.png",
+        "title": "Tide was perfect today",
+        "text": "Struggled with tangled lines for most of the session at the estuary, but managed to salvage the day with a surprise sea bass right before packing up.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "20:30 29/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "SgFisherman",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-8.png",
+        "title": "Group trip highlights",
+        "text": "Lost a big one at the jetty today, it snapped my line right at the surface. Still buzzing from the fight even though I didn't land it. Going back tomorrow for round two.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "23:30 27/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "FishyFiona",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-9.png",
+        "title": "Anyone else out fishing this morning?",
+        "text": "Lost a big one at the coastal rocks today, it snapped my line right at the surface. Still buzzing from the fight even though I didn't land it. Going back tomorrow for round two.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "09:30 26/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "RiverRoamer",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-10.png",
+        "title": "Storm rolled in, packed up early",
+        "text": "Long day at the pier with barely any bites until late afternoon when a trevally finally took the bait. Patience really is everything in this hobby.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "14:30 23/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "BaitMaster99",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-11.png",
+        "title": "Big one got away, lesson learned",
+        "text": "Just wanted to share the view from the lake today, the water was crystal clear. Didn't catch much, a small sea bass was the only action, but it was still a great trip.",
+        "img": "./post-images/post-image-1.webp",
+        "alt-text": "",
+        "timestamp": "03:30 22/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "ReelDealRae",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-12.png",
+        "title": "Just here to share the view",
+        "text": "Group meet-up at the pier today was a blast. Great to swap stories and tips with fellow anglers while a few of us landed some mackerel. This community is the best.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "20:30 19/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "SilentAngler",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-13.png",
+        "title": "Early catch today, slow afternoon",
+        "text": "Nothing beats an early start. Got to the reservoir before sunrise and had an interesting catch  within the first hour. The rest of the day was slow but that first catch made it all worthwhile.",
+        "img": "./post-images/post-image-4.jpg",
+        "alt-text": "",
+        "timestamp": "05:30 19/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "JettyJake",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-14.png",
+        "title": "Upgraded my tackle box",
+        "text": "Quick session at the coastal rocks today. Only managed a small threadfin but it was enough to make the trip worth it. Sometimes it's not about the size, just about being out there.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "05:30 18/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "LureLoftUser",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-15.png",
+        "title": "Rescued my line from the rocks",
+        "text": "Spent the whole morning at a small pond nearby and finally hooked a decent sea bass. The fight lasted a good ten minutes before I got it to the surface. Nothing beats that feeling when the line goes tight!",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "01:30 16/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "RodBender",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-16.png",
+        "title": "Best bait for this weather?",
+        "text": "Lost a big one at the estuary today, it snapped my line right at the surface. Still buzzing from the fight even though I didn't land it. Going back tomorrow for round two.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "07:30 15/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "PondPatrol",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-17.png",
+        "title": "Trying to identify this catch",
+        "text": "Spent the whole morning at the harbour edge and finally hooked a decent barramundi. The fight lasted a good ten minutes before I got it to the surface. Nothing beats that feeling when the line goes tight!",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "14:30 13/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "KayakCaster",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-18.png",
+        "title": "Small fry but still fun",
+        "text": "Tried a new rig today at a small pond nearby and it paid off with a nice barramundi. Took a while to figure out the right depth but once I did, the bites came steadily.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "01:30 12/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "HookLine22",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-19.png",
+        "title": "Just reorganised my tackle bag",
+        "text": "Tested out a new lure colour at the pier and the stingray seemed to love it. Might have found my new go-to setup for this season.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "07:30 10/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "NetAndTackle",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-20.png",
+        "title": "Just here to share the view",
+        "text": "Lost a big one at the coastal rocks today, it snapped my line right at the surface. Still buzzing from the fight even though I didn't land it. Going back tomorrow for round two.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "07:30 09/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "ReelRanger",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-21.png",
+        "title": "Spent the whole day at the pier",
+        "text": "First time fishing at the jetty and I'm impressed. Landed a mackerel on my third cast. Will definitely be coming back here again soon.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "01:30 09/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "CastnetCleo",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-22.png",
+        "title": "Tried a new spot this week",
+        "text": "Struggled with tangled lines for most of the session at the reservoir, but managed to salvage the day with a big guy right before packing up.",
+        "img": "./post-images/post-image-5.avif",
+        "alt-text": "",
+        "timestamp": "11:30 08/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "DeepSeaDee",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-23.png",
+        "title": "Night fishing session recap",
+        "text": "Had some friends join me at a small pond nearby this time. We all took turns and between us landed a few ikan merah and some smaller catches. Great way to spend a weekend.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "15:30 07/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "TidalTom",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-24.png",
+        "title": "Group trip highlights",
+        "text": "Brought my kid along to the lake for their first proper fishing trip. They were so excited when a small stingray took the bait. Memories like this are priceless.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "16:30 04/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "LineDancer_",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-25.png",
+        "title": "New spot found, will be back",
+        "text": "First time fishing at the reservoir and I'm impressed. Landed a trevally on my third cast. Will definitely be coming back here again soon.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "13:30 02/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "ReservoirRex",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-26.png",
+        "title": "Thank goodness for this website",
+        "text": "As a tourist, the Southern Islands were truly breathtaking, even landed myself a family dinner for the day, this place did not dissapoint us at all.",
+        "img": "./post-images/post-image-6.jpg",
+        "alt-text": "",
+        "timestamp": "01:30 02/07/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "SpinCastSid",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-27.png",
+        "title": "Beautiful day at the reservoir",
+        "text": "Went down to the reservoir hoping for something big and wasn't disappointed. Managed to land a catfish that put up a real fight. Water was calm and the weather cooperated for once.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "17:30 30/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "BeachRodBoy",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-28.png",
+        "title": "Caught and released a beauty",
+        "text": "Group meet-up at the reservoir today was a blast. Great to swap stories and tips with fellow anglers while a few of us landed some peacock bass. This community is the best.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "05:30 30/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "LurePirate",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-29.png",
+        "title": "Storm rolled in, packed up early",
+        "text": "Struggled with tangled lines for most of the session at a quiet riverbank, but managed to salvage the day with a surprise ikan merah right before packing up.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "14:30 28/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "StingrayStu",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-30.png",
+        "title": "Rookie question about tackle setup",
+        "text": "Weather wasn't ideal at the canal today with strong winds, but persistence paid off with a solid ikan merah. Definitely testing my gear's limits out there.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "22:30 25/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "SunsetSnapper",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-31.png",
+        "title": "An exciting guy",
+        "text": "Went down to the lake hoping for something big and wasn't disappointed. Managed to land a feisty one that put up a real fight. Water was calm and the weather cooperated for once.",
+        "img": "./post-images/post-image-7.jpg",
+        "alt-text": "",
+        "timestamp": "06:30 25/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "DriftAndCast",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-32.png",
+        "title": "Gear review: my new reel",
+        "text": "First time fishing at the reservoir and I'm impressed. Landed a peacock bass on my third cast. Will definitely be coming back here again soon.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "14:30 24/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "FinFanatic",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-33.png",
+        "title": "Lost a big one today, still buzzing",
+        "text": "First time fishing at the harbour edge and I'm impressed. Landed a sea bass on my third cast. Will definitely be coming back here again soon.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "10:30 23/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "AnglingAce",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-34.png",
+        "title": "Finally landed my personal best!",
+        "text": "Struggled with tangled lines for most of the session at the jetty, but managed to salvage the day with a surprise carp right before packing up.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "22:30 20/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "BobberBrian",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-35.png",
+        "title": "Anyone else out fishing this morning?",
+        "text": "Reorganised my tackle box last night and headed straight to the harbour edge to test everything out. New setup worked well, landed a nice threadfin within the hour.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "07:30 20/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "BassBuddy",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-36.png",
+        "title": "Peaceful evening, no bites but happy",
+        "text": "Peaceful evening at the breakwater, watched the sunset while waiting for a bite. Eventually landed a modest trevally just as it got dark. Perfect way to end the day.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "00:30 18/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "TackleTina",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-37.png",
+        "title": "New rod, first outing",
+        "text": "Weather wasn't ideal at the breakwater today with strong winds, but persistence paid off with a solid stingray. Definitely testing my gear's limits out there.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "06:30 15/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "WeekendWader",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-38.png",
+        "title": "Long wait, big reward",
+        "text": "Just wanted to share the view from the jetty today, the water was crystal clear. Didn't catch much, a small snapper was the only action, but it was still a great trip.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "19:30 14/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "CarpKing_88",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-39.png",
+        "title": "Solo trip therapy session",
+        "text": "Quick session at the coastal rocks today. Only managed a small snapper but it was enough to make the trip worth it. Sometimes it's not about the size, just about being out there.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "23:30 11/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "CatfishCarl",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-40.png",
+        "title": "Group trip highlights",
+        "text": "Long day at a quiet riverbank with barely any bites until late afternoon when a peacock bass finally took the bait. Patience really is everything in this hobby.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "01:30 09/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "PikePursuit",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-41.png",
+        "title": "Just reorganised my tackle bag",
+        "text": "Lost a big one at the harbour edge today, it snapped my line right at the surface. Still buzzing from the fight even though I didn't land it. Going back tomorrow for round two.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "05:30 08/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "GrouperGary",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-42.png",
+        "title": "Anyone else out fishing this morning?",
+        "text": "Struggled with tangled lines for most of the session at the reservoir, but managed to salvage the day with a surprise carp right before packing up.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "16:30 07/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "ShoreCastShaun",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-43.png",
+        "title": "Beginner mistakes I made today",
+        "text": "Struggled with tangled lines for most of the session at the harbour edge, but managed to salvage the day with a surprise barramundi right before packing up.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "20:30 04/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "AnglerAmy",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-44.png",
+        "title": "Rookie question about tackle setup",
+        "text": "Tried a new rig today at the breakwater and it paid off with a nice tilapia. Took a while to figure out the right depth but once I did, the bites came steadily.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "02:30 03/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "MonsoonMike",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-45.png",
+        "title": "Small fry but still fun",
+        "text": "Quick session at the jetty today. Only managed a small sea bass but it was enough to make the trip worth it. Sometimes it's not about the size, just about being out there.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "03:30 02/06/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "NightBiteNic",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-46.png",
+        "title": "Rainy day, still worth it",
+        "text": "Went down to a small pond nearby hoping for something big and wasn't disappointed. Managed to land a tilapia that put up a real fight. Water was calm and the weather cooperated for once.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "17:30 30/05/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "SaltySam22",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-47.png",
+        "title": "Solo trip therapy session",
+        "text": "Lost a big one at the lake today, it snapped my line right at the surface. Still buzzing from the fight even though I didn't land it. Going back tomorrow for round two.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "19:30 29/05/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "TidepoolTee",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-48.png",
+        "title": "Beach cast turned into a battle",
+        "text": "Anyone have tips for targeting mackerel around a quiet riverbank? I've had a few near misses but haven't managed to hook one properly yet. Open to any advice from the community.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "08:30 28/05/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
+        "user": "MangroveMel",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-49.png",
+        "title": "Group trip highlights",
+        "text": "Weather wasn't ideal at the jetty today with strong winds, but persistence paid off with a solid mackerel. Definitely testing my gear's limits out there.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "13:30 26/05/2026"
     },
     {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "placeholder.png",
-        "alt-text": "Placeholder Alt Text",
-        "timestamp": "00:00 01/01/1900"
-    },
-    {
-        "user": "Placeholder Username",
-        "avatar": "placeholder.png",
-        "title": "Placeholder Title",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "timestamp": "00:01 01/01/1900"
+        "user": "WaveWalker7",
+        "avatar": "PFP/Untitled - 09 August 2026 at 10.47.11-50.png",
+        "title": "Finally landed my personal best!",
+        "text": "Peaceful evening at the jetty, watched the sunset while waiting for a bite. Eventually landed a modest sea bass just as it got dark. Perfect way to end the day.",
+        "img": "",
+        "alt-text": "",
+        "timestamp": "15:30 24/05/2026"
     }
-]   
+]
