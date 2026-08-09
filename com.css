@@ -1,11 +1,13 @@
 body {
-    background-color: rgb(15, 20, 28);
+    background-color: rgb(12, 26, 50);
 }
 
 .cardholder {
-    margin: 2rem 25rem;
+    margin: 2vh 25vw;
 
     .card {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: rgb(226, 226, 226);
 
         .card-header {
             display: flex;
@@ -28,7 +30,7 @@ body {
 
             .card-info {
                 font-size: 70%;
-                color: rgba(0, 0, 0, 0.5)
+                color: rgba(255, 255, 255, 0.5)
             }
             
             .card-img {
@@ -38,8 +40,75 @@ body {
 
             .img-alt-text {
                 font-size: 80%;
-                color: rgba(0, 0, 0, 0.5)
+                color: rgba(255, 255, 255, 0.5)
             }
         }
+    }
+}
+
+.new-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(13, 31, 222);
+    color: white;
+
+    height: 4vw;
+    width: 4vw;
+    border-width: 0;
+    border-radius: 2vw;
+    padding: 0 1.2rem;
+
+    transition:
+    width 0.3s ease,
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.new-post:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: fit-content;
+    gap: 0.5rem;
+}
+
+.new-post::after {
+    content: "";
+    white-space: nowrap;
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 0.3s ease;
+}
+
+.new-post:hover::after {
+    content: "New Post";
+    max-width: 100px;
+}
+
+.modal-content {
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 226, 226);
+
+    input, textarea {
+        background-color: rgb(33, 33, 33);
+        color: white;
+    }
+
+    input:focus, textarea:focus {
+        background-color: rgb(168, 168, 168);
+        color: black;
+    }
+
+    input::placeholder, textarea::placeholder {
+        background-color: rgb(33, 33, 33);
+        color: white;
+        opacity: 1;
+    }
+
+    input:focus::placeholder, textarea:focus::placeholder {
+        background-color: inherit;
+        color: black;
+        opacity: 1;
     }
 }
