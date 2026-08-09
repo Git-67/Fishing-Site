@@ -1,4 +1,4 @@
-function buttonaudio() {
+function buttonAudio() {
     document.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
@@ -18,13 +18,13 @@ function buttonaudio() {
     });
 }
 
-function scrolldown(button, next) {
+function scrollDown(button, next) {
     document.getElementById(button).addEventListener('click', () => {
         document.getElementById(next).scrollIntoView({ behavior: 'smooth' });
     });
 }
 
-function showhidden() {
+function showHidden() {
     const button = document.getElementById("show-hidden-btn");
 
     button.addEventListener("click", () => {
@@ -36,7 +36,7 @@ function showhidden() {
     });
 }
 
-function showhiddenbestiarycard() {
+function showHiddenestiaryCard() {
     const buttonBestiary = document.getElementById("show-hidden-bestiary");
 
     buttonBestiary.addEventListener("click", () => {
@@ -75,25 +75,25 @@ function form() {
     });
 }
 
-buttonaudio()
+buttonAudio()
 
 if (document.getElementById("scrollDownBtn")) {
-    scrolldown('scrollDownBtn', 'next-section')
+    scrollDown('scrollDownBtn', 'next-section')
 }
 if (document.getElementById("scrollDownBtn2")) {
-    scrolldown('scrollDownBtn2', 'next-section2')
+    scrollDown('scrollDownBtn2', 'next-section2')
 }
 if (document.getElementById("scrollDownBtn3")) {
-    scrolldown('scrollDownBtn3', 'next-section3')
+    scrollDown('scrollDownBtn3', 'next-section3')
 }
 if (document.getElementById("show-hidden-btn")) {
-    showhidden()
+    showHidden()
 }
 if (document.getElementById("carousel")) {
     carousel()
 }
 if (document.getElementById("show-hidden-bestiary")) {
-    showhiddenbestiarycard()
+    showHiddenestiaryCard()
 }
 if (document.getElementById('reset-btn') && document.getElementById('submit-btn')) {
     form()
