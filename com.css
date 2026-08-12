@@ -2,46 +2,42 @@ body {
     background-color: rgb(12, 26, 50);
 }
 
-.cardholder {
-    margin: 2vh 25vw;
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(226, 226, 226);
 
-    .card {
-        background-color: rgba(0, 0, 0, 0.5);
-        color: rgb(226, 226, 226);
+    .card-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
-        .card-header {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-
-            img {
-                object-fit: cover;
-                width: 3rem;
-                height: 3rem;
-            }
-
-            p {
-                font-weight: bold;
-                font-size: 150%;
-            }
+        img {
+            object-fit: cover;
+            width: 3rem;
+            height: 3rem;
         }
 
-        .card-body {
+        p {
+            font-weight: bold;
+            font-size: 150%;
+        }
+    }
 
-            .card-info {
-                font-size: 70%;
-                color: rgba(255, 255, 255, 0.5)
-            }
-            
-            .card-img {
-                max-height: 50vh;
-                object-fit: cover;
-            }
+    .card-body {
 
-            .img-alt-text {
-                font-size: 80%;
-                color: rgba(255, 255, 255, 0.5)
-            }
+        .card-info {
+            font-size: 70%;
+            color: rgba(255, 255, 255, 0.5)
+        }
+        
+        .card-img {
+            max-height: 50vh;
+            object-fit: cover;
+        }
+
+        .img-alt-text {
+            font-size: 80%;
+            color: rgba(255, 255, 255, 0.5)
         }
     }
 }
@@ -110,5 +106,43 @@ body {
         background-color: inherit;
         color: black;
         opacity: 1;
+    }
+
+    #img-preview {
+        anchor-name: --img-preview;
+    }
+
+    #img-remove {
+        position: absolute;
+        position-anchor: --img-preview;
+        top: anchor(top);
+        right: anchor(right);
+
+        border-color: white;
+
+        transition:
+            width 0.3s ease,
+            background-color 0.3s ease,
+            color 0.3s ease;
+    }
+
+    #img-remove:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        width: fit-content;
+        gap: 0.5rem;
+    }
+
+    #img-remove::after {
+        content: "";
+        white-space: nowrap;
+        max-width: 0;
+        overflow: hidden;
+        transition: max-width 0.3s ease;
+    }
+
+    #img-remove:hover::after {
+        content: "Remove File";
+        max-width: 100px;
     }
 }

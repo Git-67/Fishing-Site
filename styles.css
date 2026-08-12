@@ -30,7 +30,7 @@ html {
 
     border-radius: 8px 8px 0 0;
     padding: 8px 24px 24px 24px;
-    z-index: 100;
+    z-index: 9999;
 
     text-decoration: none;
     transition: all 0.3s ease;

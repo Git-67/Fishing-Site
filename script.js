@@ -44,7 +44,7 @@ function showHiddenestiaryCard() {
             div.classList.remove("hidden-bestiary");
         });
 
-        buttonBestiary.style.display = "none";
+        buttonBestiary.remove();
     });
 }
 
@@ -82,9 +82,6 @@ if (document.getElementById("scrollDownBtn")) {
 }
 if (document.getElementById("scrollDownBtn2")) {
     scrollDown('scrollDownBtn2', 'next-section2')
-}
-if (document.getElementById("scrollDownBtn3")) {
-    scrollDown('scrollDownBtn3', 'next-section3')
 }
 if (document.getElementById("show-hidden-btn")) {
     showHidden()

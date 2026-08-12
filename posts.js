@@ -2,7 +2,7 @@ function createPost(post, newPost) {
     const postarea = document.getElementById("cardholder");
 
     if (newPost) {
-        var imageHTML = "";
+        const imageHTML = "";
         if (post.img instanceof File && post.img.type.startsWith("image/") && post.img.size) {
             const imageURL = URL.createObjectURL(post.img);
 
@@ -11,52 +11,64 @@ function createPost(post, newPost) {
             `;
         }
 
-        var altTextHTML = "";
+        const altTextHTML = "";
         if (post["alt-text"]) {
+            const tempalt = document.createElement('p')
+            tempalt.setHTML(post['alt-text'])
             altTextHTML = `
-                <p class="img-alt-text">${post["alt-text"]}</p>
+                <p class="img-alt-text">${post[tempalt.innerHTML]}</p>
             `;
         }
 
+        const temptitle = document.createElement('p');
+        const temptext = document.createElement('p');
+        temptitle.setHTML(post['title']);
+        temptext.setHTML(post['text']);
         postarea.innerHTML = `
             <div class="card mt-3 mb-3">
                 <div class="card-header">
                     <img src="post-media/avatar/${post['avatar']}" alt="avatar" class="rounded-circle">
-                    <p class="card-title ms-3">${post['title']}</p>
+                    <p class="card-title ms-3">${temptitle.innerHTML}</p>
                 </div>
                 <div class="card-body">
                     <p class="card-info mb-1">Posted by ${post['user']} at ${post['timestamp']}</p>
                     ${imageHTML}
                     ${altTextHTML}
-                    <p class="card-text">${post['text']}</p>
+                    <p class="card-text">${temptext.innerHTML}</p>
                 </div>
             </div>
         ` + postarea.innerHTML
     }
     else {
-        var imageHTML = `
+        const imageHTML = `
             ${(() => {
                 if (!post['img']) return "";
                 return `<img src="post-media/${post['img']}" class="card-img">`;
             })()}`
 
-        var altTextHTML = `
+        const altTextHTML = `
             ${(() => {
                 if (!post['alt-text']) return "";
-                return `<p class="img-alt-text">${post['alt-text']}</p>`;
+                const tempalt = document.createElement('p')
+                tempalt.setHTML(post['alt-text'])
+                return `<p class="img-alt-text">${tempalt.innerHTML}</p>`;
             })()}`
-
+        
+        const temptitle = document.createElement('p');
+        const temptext = document.createElement('p');
+        temptitle.setHTML(post['title']);
+        temptext.setHTML(post['text']);
         postarea.innerHTML += `
             <div class="card mt-3 mb-3">
                 <div class="card-header">
                     <img src="post-media/avatar/${post['avatar']}" alt="avatar" class="rounded-circle">
-                    <p class="card-title ms-3">${post['title']}</p>
+                    <p class="card-title ms-3">${temptitle.innerHTML}</p>
                 </div>
                 <div class="card-body">
                     <p class="card-info mb-1">Posted by ${post['user']} at ${post['timestamp']}</p>
                     ${imageHTML}
                     ${altTextHTML}
-                    <p class="card-text">${post['text']}</p>
+                    <p class="card-text">${temptext.innerHTML}</p>
                 </div>
             </div>
         `
@@ -97,7 +109,7 @@ function newPost() {
 
         // Because there is no functional server due to the no framework requirement, default values are placed
         postContent["user"] = "You"
-        postContent["avatar"] = "default.png"
+        postContent["avatar"] = "image.png"
 
         const time = new Date()
         postContent["timestamp"] = `${String(time.getHours()).padStart(2, "0")}:${String(time.getMinutes()).padStart(2, "0")} 
@@ -113,7 +125,10 @@ function newPost() {
 function imageStuff() {
     const imageInput = document.getElementById("form-img");
     const imagePreviewContainer = document.getElementById("img-preview-container");
-    const imagePreview = document.getElementById("img-preview")
+    const imagePreview = document.getElementById("img-preview");
+    const imgRemove = document.getElementById("img-remove");
+    const formCancel = document.getElementById("form-cancel");
+    const newPost = document.getElementById("newPost");
 
     imageInput.addEventListener("change", () => {
         const file = imageInput.files[0];
@@ -133,6 +148,25 @@ function imageStuff() {
         imagePreview.src = URL.createObjectURL(file);
         imagePreviewContainer.style.display = "block";
     });
+
+    imgRemove.addEventListener("click", () => {
+        imageInput.value = ""
+        imagePreviewContainer.style.display = "none";
+        imagePreview.src = "";
+        return;
+    })
+
+    formCancel.addEventListener("click", () => {
+        imagePreviewContainer.style.display = "none";
+        imagePreview.src = "";
+        return;
+    })
+
+    newPost.addEventListener("submit", () => {
+        imagePreviewContainer.style.display = "none";
+        imagePreview.src = "";
+        return;
+    })
 }
 
 loadPosts()
