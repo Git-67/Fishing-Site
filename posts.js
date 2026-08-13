@@ -2,7 +2,7 @@ function createPost(post, newPost) {
     const postarea = document.getElementById("cardholder");
 
     if (newPost) {
-        const imageHTML = "";
+        var imageHTML = "";
         if (post.img instanceof File && post.img.type.startsWith("image/") && post.img.size) {
             const imageURL = URL.createObjectURL(post.img);
 
@@ -11,7 +11,7 @@ function createPost(post, newPost) {
             `;
         }
 
-        const altTextHTML = "";
+        var altTextHTML = "";
         if (post["alt-text"]) {
             const tempalt = document.createElement('p')
             tempalt.setHTML(post['alt-text'])
@@ -40,13 +40,13 @@ function createPost(post, newPost) {
         ` + postarea.innerHTML
     }
     else {
-        const imageHTML = `
+        var imageHTML = `
             ${(() => {
                 if (!post['img']) return "";
                 return `<img src="post-media/${post['img']}" class="card-img">`;
             })()}`
 
-        const altTextHTML = `
+        var altTextHTML = `
             ${(() => {
                 if (!post['alt-text']) return "";
                 const tempalt = document.createElement('p')
